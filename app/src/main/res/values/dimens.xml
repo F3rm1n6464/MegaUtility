@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="padding_standard">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="log_text_size">12sp</dimen>
+    <dimen name="url_input_height">56dp</dimen>
+    <dimen name="section_divider_height">1dp</dimen>
+</resources>

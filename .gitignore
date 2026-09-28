@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradlew
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+#Local config
+local.properties
+*.keystore
+!/gradlew
+
+# Output
+*.apk
+*.aab
+*.ap_
+
+# Backup
+*~.orig

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mega Utility</string>
+    <string name="url_hint">Enter URL to monitor</string>
+    <string name="btn_start_download">Start Download</string>
+    <string name="btn_rotate_ip">Rotate IP</string>
+    <string name="log_section_title">System Log Shell</string>
+    <string name="toast_enter_url">Please enter a valid URL</string>
+    <string name="toast_orbot_not_installed">Orbot not installed. Please install Orbot from Play Store.</string>
+    <string name="toast_rotating_ip">Rotating IP address...</string>
+    <string name="toast_ip_rotated">New identity acquired</string>
+    <string name="toast_rotation_failed">Failed to rotate IP. Ensure Orbot is running.</string>
+    <string name="toast_quota_detected">Quota exceeded detected. Rotate IP to continue.</string>
+    <string name="toast_loading">Loading URL...</string>
+    <string name="toast_ad_loading">Loading advertisement...</string>
+    <string name="log_connecting_tor">[+] Connecting to Tor...</string>
+    <string name="log_tor_connected">[+] Tor connection established</string>
+    <string name="log_clearing_session">[+] Clearing session data...</string>
+    <string name="log_session_cleared">[+] Session cleared successfully</string>
+    <string name="log_requesting_new_identity">[+] Requesting new Tor identity...</string>
+    <string name="log_new_identity_acquired">[+] New Identity acquired</string>
+    <string name="log_loading_url">[+] Loading URL: %s</string>
+    <string name="log_quota_exceeded">[!] Limit reached, please rotate</string>
+    <string name="log_error">[!] Error: %s</string>
+    <string name="log_warning">[!] Warning: %s</string>
+    <string name="log_info">[+] %s</string>
+    <string name="content_description_url">URL input field</string>
+    <string name="content_description_start">Start download button</string>
+    <string name="content_description_rotate">Rotate IP button</string>
+</resources>

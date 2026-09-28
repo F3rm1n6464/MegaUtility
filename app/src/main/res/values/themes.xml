@@ -1,0 +1,45 @@
+<resources>
+    <style name="Theme.MegaUtility" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/material_blue</item>
+        <item name="colorPrimaryVariant">@color/material_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/dark_green</item>
+        <item name="colorSecondaryVariant">@color/neon_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="android:statusBarColor">@color/material_blue</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.MegaUtility.NoActionBar" parent="Theme.MegaUtility">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.MegaUtility.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/button_primary_bg</item>
+        <item name="android:textColor">@color/button_primary_text</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.MegaUtility.Button.Secondary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/button_secondary_bg</item>
+        <item name="android:textColor">@color/button_secondary_text</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.MegaUtility.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/material_blue</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextColor">@color/gray_dark</item>
+        <item name="android:textColorHint">@color/gray_dark</item>
+    </style>
+</resources>
