@@ -24,15 +24,15 @@ jobs:
           java-version: '17'
           cache: gradle
 
-      - name: Set up Android SDK
+      - name: Set up Android SDK (base)
         uses: android-actions/setup-android@v3
         with:
           cmdline-tools-version: latest
           accept-android-sdk-licenses: true
-          packages: |
-                 platforms;android-34
-                 build-tools;34.0.0
-                 platform-tools
+
+      - name: Install Android 34 platform
+        run: |
+          sdkmanager "platforms;android-34"
 
       - name: Cache Gradle packages
         uses: actions/cache@v4
@@ -56,4 +56,5 @@ jobs:
           name: MegaUtility-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
           retention-days: 30
+
           
